@@ -47,5 +47,5 @@ app.use("/querry",querry)
 const port=process.env.PORT||300;
 app.listen(port,()=>
 {
-    console.log('Server running at port ${port}')
+    console.log('Server running at port 300')
 });
